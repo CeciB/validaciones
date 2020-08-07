@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+}
+
+.principal {
+  margin:2% 20%;
+  background-color: #ffcb77;
+  font-family: 'Rubik';
+  font-size: 10px;
+  border: 10px solid #ffcb77;
+}
+
+.encabezado h1 {
+  text-align: center;
+  font-weight: 500;
+  color: #17c3b2;
+  background-color: #fef9ef;
+  padding: 1.5rem;
+  font-size: 2rem;
+}
+
+.formulario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registro {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 600px;
+  background-color: #fef9ef;
+  padding: 2.8rem;
+  padding-bottom: 3.2rem;
+}
+
+.registro label {
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: #227c9d;
+}
+
+.registro input {
+  min-height: 3rem;
+  border: none;
+  border-radius: .9rem;
+  text-indent: .9rem;
+  font-size: 1.3rem;
+}
+
+.registro input:focus {
+  outline: none;
+}
+
+.registro input[type=submit]{
+  margin-top: 3rem;
+  background-color: #f1c453;
+  text-indent: 0;
+  transition: 200ms;
+}
+
+.registro input[type=submit]:hover{
+  background-color: #f29e4c;
+}
+
+.mensajeError{
+  text-align: right;
+  color: #17c3b2;
+  font-size: 1.5rem;
+  font-family: 'Rubik';
+  font-weight: 300;
+}
